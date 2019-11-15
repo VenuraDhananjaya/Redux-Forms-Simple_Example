@@ -4,5 +4,6 @@ export default [
     'Galle',
     'Mathara',
     'Kaluthara',
-    'Polonnaluwa'
+    'Polonnaluwa',
+    
 ]  
