@@ -3,10 +3,10 @@ import './style.css'
 
 const renderSelect = ({ input, meta, label, children }) =>{
     return (
-        <div ><select id="district_drop"   {...input}>
+        <div id='input-field'><select id="district_drop"   {...input}>
         {children}
     </select>
-    <div>
+    <div className="errMsg">
     {meta.error && meta.touched &&
             <small>
                 {meta.error}
