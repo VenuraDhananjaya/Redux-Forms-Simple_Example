@@ -1,3 +1,7 @@
 #district_drop{
     width: 180px !important;
 }
+
+.errMsg{
+    color: red;
+}
